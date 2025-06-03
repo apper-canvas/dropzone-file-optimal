@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "name": "Photos & Media",
+    "parentId": null,
+    "createdDate": "2024-01-10T12:00:00Z",
+    "fileCount": 8
+  },
+  {
+    "id": "2",
+    "name": "Work Documents",
+    "parentId": null,
+    "createdDate": "2024-01-08T09:30:00Z",
+    "fileCount": 12
+  },
+  {
+    "id": "3",
+    "name": "Vacation 2024",
+    "parentId": "1",
+    "createdDate": "2024-01-15T14:20:00Z",
+    "fileCount": 3
+  },
+  {
+    "id": "4",
+    "name": "Project Alpha",
+    "parentId": "2",
+    "createdDate": "2024-01-12T11:45:00Z",
+    "fileCount": 5
+  },
+  {
+    "id": "5",
+    "name": "Screenshots",
+    "parentId": "1",
+    "createdDate": "2024-01-14T16:10:00Z",
+    "fileCount": 15
+  },
+  {
+    "id": "6",
+    "name": "Meeting Notes",
+    "parentId": "2",
+    "createdDate": "2024-01-11T10:25:00Z",
+    "fileCount": 7
+  },
+  {
+    "id": "7",
+    "name": "Music Collection",
+    "parentId": null,
+    "createdDate": "2024-01-09T13:50:00Z",
+    "fileCount": 24
+  },
+  {
+    "id": "8",
+    "name": "Design Assets",
+    "parentId": "2",
+    "createdDate": "2024-01-13T15:30:00Z",
+    "fileCount": 18
+  },
+  {
+    "id": "9",
+    "name": "Archive",
+    "parentId": null,
+    "createdDate": "2024-01-05T08:15:00Z",
+    "fileCount": 6
+  },
+  {
+    "id": "10",
+    "name": "Presentations",
+    "parentId": "2",
+    "createdDate": "2024-01-07T12:40:00Z",
+    "fileCount": 4
+  },
+  {
+    "id": "11",
+    "name": "Raw Photos",
+    "parentId": "1",
+    "createdDate": "2024-01-16T09:20:00Z",
+    "fileCount": 22
+  },
+  {
+    "id": "12",
+    "name": "Client Files",
+    "parentId": "2",
+    "createdDate": "2024-01-06T14:55:00Z",
+    "fileCount": 9
+  },
+  {
+    "id": "13",
+    "name": "Personal",
+    "parentId": null,
+    "createdDate": "2024-01-04T11:30:00Z",
+    "fileCount": 11
+  },
+  {
+    "id": "14",
+    "name": "Backup",
+    "parentId": "9",
+    "createdDate": "2024-01-03T16:45:00Z",
+    "fileCount": 3
+  },
+  {
+    "id": "15",
+    "name": "Templates",
+    "parentId": "2",
+    "createdDate": "2024-01-02T10:10:00Z",
+    "fileCount": 8
+  }
+]

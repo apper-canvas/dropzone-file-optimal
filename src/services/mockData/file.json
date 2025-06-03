@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1",
+    "name": "vacation-beach.jpg",
+    "size": 2456789,
+    "type": "image/jpeg",
+    "uploadDate": "2024-01-15T10:30:00Z",
+    "folderId": "1",
+    "thumbnail": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
+    "downloadUrl": "#download-1"
+  },
+  {
+    "id": "2",
+    "name": "presentation.pdf",
+    "size": 1234567,
+    "type": "application/pdf",
+    "uploadDate": "2024-01-14T14:22:00Z",
+    "folderId": null,
+    "thumbnail": null,
+    "downloadUrl": "#download-2"
+  },
+  {
+    "id": "3",
+    "name": "mountain-hike.mp4",
+    "size": 15678901,
+    "type": "video/mp4",
+    "uploadDate": "2024-01-13T09:15:00Z",
+    "folderId": "1",
+    "thumbnail": "https://images.unsplash.com/photo-1464822759844-d150b64e6bf2?w=400",
+    "downloadUrl": "#download-3"
+  },
+  {
+    "id": "4",
+    "name": "project-files.zip",
+    "size": 5432109,
+    "type": "application/zip",
+    "uploadDate": "2024-01-12T16:45:00Z",
+    "folderId": "2",
+    "thumbnail": null,
+    "downloadUrl": "#download-4"
+  },
+  {
+    "id": "5",
+    "name": "meeting-notes.docx",
+    "size": 87654,
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "uploadDate": "2024-01-11T11:30:00Z",
+    "folderId": "2",
+    "thumbnail": null,
+    "downloadUrl": "#download-5"
+  },
+  {
+    "id": "6",
+    "name": "sunset.png",
+    "size": 3456789,
+    "type": "image/png",
+    "uploadDate": "2024-01-10T18:20:00Z",
+    "folderId": "1",
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400",
+    "downloadUrl": "#download-6"
+  },
+  {
+    "id": "7",
+    "name": "podcast-episode.mp3",
+    "size": 8765432,
+    "type": "audio/mpeg",
+    "uploadDate": "2024-01-09T12:10:00Z",
+    "folderId": null,
+    "thumbnail": null,
+    "downloadUrl": "#download-7"
+  },
+  {
+    "id": "8",
+    "name": "spreadsheet.xlsx",
+    "size": 234567,
+    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "uploadDate": "2024-01-08T15:55:00Z",
+    "folderId": "2",
+    "thumbnail": null,
+    "downloadUrl": "#download-8"
+  },
+  {
+    "id": "9",
+    "name": "city-skyline.jpg",
+    "size": 4567890,
+    "type": "image/jpeg",
+    "uploadDate": "2024-01-07T08:40:00Z",
+    "folderId": "1",
+    "thumbnail": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1f?w=400",
+    "downloadUrl": "#download-9"
+  },
+  {
+    "id": "10",
+    "name": "tutorial-video.avi",
+    "size": 23456789,
+    "type": "video/avi",
+    "uploadDate": "2024-01-06T13:25:00Z",
+    "folderId": null,
+    "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400",
+    "downloadUrl": "#download-10"
+  },
+  {
+    "id": "11",
+    "name": "backup.tar.gz",
+    "size": 12345678,
+    "type": "application/gzip",
+    "uploadDate": "2024-01-05T17:30:00Z",
+    "folderId": "2",
+    "thumbnail": null,
+    "downloadUrl": "#download-11"
+  },
+  {
+    "id": "12",
+    "name": "forest-path.tiff",
+    "size": 6789012,
+    "type": "image/tiff",
+    "uploadDate": "2024-01-04T10:15:00Z",
+    "folderId": "1",
+    "thumbnail": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400",
+    "downloadUrl": "#download-12"
+  },
+  {
+    "id": "13",
+    "name": "conference-call.wav",
+    "size": 15432109,
+    "type": "audio/wav",
+    "uploadDate": "2024-01-03T14:45:00Z",
+    "folderId": null,
+    "thumbnail": null,
+    "downloadUrl": "#download-13"
+  },
+  {
+    "id": "14",
+    "name": "design-mockup.psd",
+    "size": 9876543,
+    "type": "image/vnd.adobe.photoshop",
+    "uploadDate": "2024-01-02T11:20:00Z",
+    "folderId": "2",
+    "thumbnail": "https://images.unsplash.com/photo-1541462608143-67571c6738dd?w=400",
+    "downloadUrl": "#download-14"
+  },
+  {
+    "id": "15",
+    "name": "recipe-collection.txt",
+    "size": 45678,
+    "type": "text/plain",
+    "uploadDate": "2024-01-01T09:00:00Z",
+    "folderId": null,
+    "thumbnail": null,
+    "downloadUrl": "#download-15"
+  }
+]

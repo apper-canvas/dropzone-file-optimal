@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply font-sans antialiased;
+    @apply text-surface-900 dark:text-surface-100;
+    @apply bg-white dark:bg-surface-900;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-xl font-medium transition-all duration-200;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-dark;
+    @apply focus:ring-primary shadow-card hover:shadow-soft;
+  }
+  
+  .btn-secondary {
+    @apply bg-surface-100 text-surface-700 hover:bg-surface-200;
+    @apply focus:ring-surface-500 dark:bg-surface-800 dark:text-surface-300;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-surface-800 rounded-2xl shadow-card;
+    @apply border border-surface-200 dark:border-surface-700;
+  }
+  
+  .upload-zone {
+    @apply border-2 border-dashed rounded-3xl transition-all duration-300;
+    @apply bg-gradient-to-br from-surface-50 to-primary-50;
+    @apply dark:from-surface-800 dark:to-surface-700;
+  }
+  
+  .upload-zone-active {
+    @apply border-primary bg-primary-50 shadow-glow;
+    @apply dark:bg-primary-900/20;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .glass {
+    @apply bg-white/80 dark:bg-surface-800/80;
+    @apply backdrop-blur-lg border border-white/20;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+}
+
+/* Custom animations */
+@keyframes progress-fill {
+  0% { width: 0%; }
+  100% { width: var(--progress-width); }
+}
+
+.progress-bar {
+  animation: progress-fill 0.3s ease-out;
+}
+
+/* File type icons */
+.file-icon {
+  @apply w-8 h-8 flex-shrink-0 rounded-lg flex items-center justify-center;
+}
+
+.file-icon-image {
+  @apply bg-gradient-to-br from-green-400 to-emerald-500 text-white;
+}
+
+.file-icon-video {
+  @apply bg-gradient-to-br from-red-400 to-pink-500 text-white;
+}
+
+.file-icon-audio {
+  @apply bg-gradient-to-br from-purple-400 to-indigo-500 text-white;
+}
+
+.file-icon-document {
+  @apply bg-gradient-to-br from-blue-400 to-cyan-500 text-white;
+}
+
+.file-icon-archive {
+  @apply bg-gradient-to-br from-yellow-400 to-orange-500 text-white;
+}
+
+.file-icon-default {
+  @apply bg-gradient-to-br from-surface-400 to-surface-500 text-white;
+}
+
+/* Toast customization */
+.Toastify__toast {
+  @apply rounded-xl;
+}
+
+.Toastify__progress-bar {
+  @apply bg-gradient-to-r from-primary to-secondary;
+}
