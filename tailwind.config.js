@@ -4,15 +4,25 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+theme: {
     extend: {
       colors: {
         primary: {
+          50: '#eef2ff',
+          100: '#e0e7ff',
+          200: '#c7d2fe',
+          300: '#a5b4fc',
+          400: '#818cf8',
+          500: '#6366f1',
+          600: '#4f46e5',
+          700: '#4338ca',
+          800: '#3730a3',
+          900: '#312e81',
           DEFAULT: '#6366f1',
           light: '#818cf8',
           dark: '#4f46e5'
         },
-        secondary: {
+secondary: {
           DEFAULT: '#f59e0b',
           light: '#fbbf24',
           dark: '#d97706'
@@ -67,9 +77,9 @@ export default {
         scaleIn: {
           '0%': { transform: 'scale(0.9)', opacity: '0' },
           '100%': { transform: 'scale(1)', opacity: '1' }
-        }
+}
       }
-    }
+    },
   },
   plugins: [],
   darkMode: 'class',
